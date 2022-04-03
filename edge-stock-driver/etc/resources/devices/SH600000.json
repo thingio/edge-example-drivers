@@ -1,0 +1,12 @@
+{
+  "id": "SH600000",
+  "name": "浦发银行",
+  "desc": "浦发银行",
+  "product_id": "stock_sh",
+  "product_name": "上证股票",
+  "category": "tick",
+  "recording": false,
+  "device_props": {},
+  "device_labels": null,
+  "device_meta": null
+}

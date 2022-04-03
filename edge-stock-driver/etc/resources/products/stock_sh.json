@@ -1,0 +1,52 @@
+{
+  "protocol": "stock",
+
+  "id": "stock_sh",
+  "name": "上证股票",
+  "desc": "上证股票",
+  "create_time": 1614664474863,
+  "update_time": 1614664474863,
+  "properties": [
+    {
+      "id": "symbol",
+      "name": "symbol",
+      "field_type": "string",
+      "unit": "",
+      "writeable": false,
+      "interval": "10s",
+      "report_mode": "periodical",
+      "aux_props": {}
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "field_type": "int",
+      "unit": "ms",
+      "writeable": false,
+      "interval": "10s",
+      "report_mode": "periodical",
+      "aux_props": {}
+    },
+    {
+      "id": "last_close",
+      "name": "last_close",
+      "field_type": "float",
+      "unit": "cny",
+      "writeable": false,
+      "interval": "10s",
+      "report_mode": "periodical",
+      "aux_props": {}
+    }
+  ],
+  "events": [
+    {
+      "id": "tick",
+      "name": "tick",
+      "desc": "股票行情数据",
+      "outs": [
+      ]
+    }
+  ],
+  "methods": [
+  ]
+}
